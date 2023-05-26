@@ -16,13 +16,13 @@
 
       ex) 
       
-      User user = new User();
+        User user = new User();
 
 - @AllArgsConstructor : 전체의 값을 넣는 생성자를 만들수 있게 만드는 어노테이션이다. (여기에 필드에 쓴 모든생성자만 만들어줌) 
 
       ex) 
       
-      User user1 = new User("martin", "martin@nate.com", LocalDateTime.now(), LocalDateTime.now());
+        User user1 = new User("martin", "martin@nate.com", LocalDateTime.now(), LocalDateTime.now());
 
 - @RequiredArgsConstructor : 초기화 되지않은 final 필드나, @NonNull 이 붙은 필드에 대해 생성자를 생성해 줍니다. @NonNull을 필드값위에 붙인다
 
