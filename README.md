@@ -61,7 +61,7 @@
 - 컬렉션은 필드에서 바로 초기화 하는 것이 안전하다.
 - null 문제에서 안전하다.
 
-        ex)
+ex)
         
 ![image](https://github.com/Parkcharito/studySpringBootJPA/assets/100402443/26292a4a-04cb-4c75-962a-5bb056ea33e5)
 
