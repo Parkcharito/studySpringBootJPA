@@ -63,6 +63,6 @@
 
         ex)
         
-        ![image](https://github.com/Parkcharito/studySpringBootJPA/assets/100402443/26292a4a-04cb-4c75-962a-5bb056ea33e5)
+![image](https://github.com/Parkcharito/studySpringBootJPA/assets/100402443/26292a4a-04cb-4c75-962a-5bb056ea33e5)
 
 
