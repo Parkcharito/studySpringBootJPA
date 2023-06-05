@@ -14,19 +14,19 @@
 
 - @NoArgsConstructor : 아무값도 존재하지 않는 생성자를 만들수 있게 만드는 어노테이션이다. (기본 생성자를 만들어줌) 
 
-      ex) 
+  ex) 
       
         User user = new User();
 
 - @AllArgsConstructor : 전체의 값을 넣는 생성자를 만들수 있게 만드는 어노테이션이다. (여기에 필드에 쓴 모든생성자만 만들어줌) 
 
-      ex) 
+ ex) 
       
         User user1 = new User("martin", "martin@nate.com", LocalDateTime.now(), LocalDateTime.now());
 
 - @RequiredArgsConstructor : 초기화 되지않은 final 필드나, @NonNull 이 붙은 필드에 대해 생성자를 생성해 줍니다. @NonNull을 필드값위에 붙인다
 
-      ex) 
+ ex) 
            @NonNull
            private String name;
            @NonNull
@@ -36,7 +36,7 @@
 
 - @Builder : 빌더 기능을 사용 가능하게 하는 어노테이션이다.
 
-        ex) 
+ ex) 
 
         User user3 = User.builder().name("martin").email("martin@nate.com").build();
         
