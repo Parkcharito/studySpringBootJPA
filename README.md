@@ -6,7 +6,9 @@
 
 - @ToString : toString 메소드를 자동으로 생성해주는 어노테이션이다
 
+
         (System.out.println(">>>" + user.toString()); 가능하게 해줌)
+        
 
 - @Getter : 해당 클래스의 필드값들의 getter메소드를 자동으로 만들어주는 어노테이션이다. (데이터의 캡슐화 이유로 필수) 
 
