@@ -14,7 +14,7 @@
 
 - @NoArgsConstructor : 아무값도 존재하지 않는 생성자를 만들수 있게 만드는 어노테이션이다. (기본 생성자를 만들어줌) 
 
-  ex) 
+ ex) 
       
         User user = new User();
 
