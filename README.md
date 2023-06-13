@@ -27,8 +27,8 @@
         User user1 = new User("martin", "martin@nate.com", LocalDateTime.now(), LocalDateTime.now());
 
 - @RequiredArgsConstructor
- 
- 초기화 되지않은 final 필드나, @NonNull 이 붙은 필드에 대해 생성자를 생성해 줍니다. @NonNull을 필드값위에 붙인다
+
+- 초기화 되지않은 final 필드나, @NonNull 이 붙은 필드에 대해 생성자를 생성해 줍니다. @NonNull을 필드값위에 붙인다
 
  ex) 
            @NonNull
