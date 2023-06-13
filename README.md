@@ -36,9 +36,9 @@ toString 메소드를 자동으로 생성해주는 어노테이션이다
       
         User user1 = new User("martin", "martin@nate.com", LocalDateTime.now(), LocalDateTime.now());
 
-- @RequiredArgsConstructor
+#### @RequiredArgsConstructor
 
-- 초기화 되지않은 final 필드나, @NonNull 이 붙은 필드에 대해 생성자를 생성해 줍니다. @NonNull을 필드값위에 붙인다
+초기화 되지않은 final 필드나, @NonNull 이 붙은 필드에 대해 생성자를 생성해 줍니다. @NonNull을 필드값위에 붙인다
 
  ex) 
            @NonNull
@@ -46,7 +46,9 @@ toString 메소드를 자동으로 생성해주는 어노테이션이다
            @NonNull
            private String email;
            
-- @Data : @ToString, @Getter, @Setter, @RequiredArgsConstructor, @EqualsAndHashCode 를 합쳐놓은 기능이다
+#### @Data 
+
+@ToString, @Getter, @Setter, @RequiredArgsConstructor, @EqualsAndHashCode 를 합쳐놓은 기능이다
 
 - @Builder : 빌더 기능을 사용 가능하게 하는 어노테이션이다.
 
