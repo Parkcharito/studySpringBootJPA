@@ -57,6 +57,7 @@ toString 메소드를 자동으로 생성해주는 어노테이션이다
 
         User user3 = User.builder().name("martin").email("martin@nate.com").build();
         
+
         
  #### @Transactional
   
