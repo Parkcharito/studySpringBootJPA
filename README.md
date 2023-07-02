@@ -26,6 +26,7 @@ toString 메소드를 자동으로 생성해주는 어노테이션이다
       
         User user = new User();
 
+
 #### @AllArgsConstructor 
 
 전체의 값을 넣는 생성자를 만들수 있게 만드는 어노테이션이다. (여기에 필드에 쓴 모든생성자만 만들어줌) 
