@@ -9,7 +9,6 @@ toString 메소드를 자동으로 생성해주는 어노테이션이다
 
         (System.out.println(">>>" + user.toString()); 가능하게 해줌)
 
-        
 
 
 #### @Getter 
